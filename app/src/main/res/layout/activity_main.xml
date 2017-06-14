@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    android:id="@+id/relativeLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,12 +9,12 @@
     android:background="#0F0"
     tools:context="com.adelphia2004.tomcat.MainActivity">
 
-    <fragment
+    <!--<fragment
         android:id="@+id/fragment"
         android:name="com.adelphia2004.tomcat.HelloFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        tools:layout="@layout/fragment_hello" />
+        tools:layout="@layout/fragment_hello" />-->
 </RelativeLayout>
