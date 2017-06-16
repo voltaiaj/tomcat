@@ -8,13 +8,10 @@
     android:layout_height="match_parent"
     android:background="#0F0"
     tools:context="com.adelphia2004.tomcat.MainActivity">
-
-    <!--<fragment
-        android:id="@+id/fragment"
-        android:name="com.adelphia2004.tomcat.HelloFragment"
+    
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        tools:layout="@layout/fragment_hello" />-->
+        android:layout_centerInParent="true"/>
 </RelativeLayout>
