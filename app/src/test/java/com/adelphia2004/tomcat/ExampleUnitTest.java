@@ -30,5 +30,4 @@ public class ExampleUnitTest {
             String result = m.group();
         }
     }
-    
 }
